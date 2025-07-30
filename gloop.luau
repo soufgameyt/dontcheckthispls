@@ -316,19 +316,6 @@ G2L["1f"]["BorderColor3"] = Color3.fromRGB(99, 150, 182);
 G2L["1f"]["Position"] = UDim2.new(0, 560, 0, 250);
 
 -- StarterGui.SynapseX.Main.ScriptHub.NameText
-G2L["20"] = Instance.new("TextLabel", G2L["1f"]);
-G2L["20"]["TextWrapped"] = true;
-G2L["20"]["ZIndex"] = 2;
-G2L["20"]["BorderSizePixel"] = 0;
-G2L["20"]["BackgroundColor3"] = Color3.fromRGB(61, 61, 61);
-G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["20"]["TextSize"] = 14;
-G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["20"]["Size"] = UDim2.new(0, 82, 0, 27);
-G2L["20"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["20"]["Text"] = [[Script Hub]];
-G2L["20"]["Name"] = [[NameText]];
-G2L["20"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.SynapseX.Main.ScriptHub.ImageButton
 G2L["21"] = Instance.new("ImageButton", G2L["1f"]);
