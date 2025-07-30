@@ -302,7 +302,7 @@ G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["1e"]["TextSize"] = 15;
 G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["Size"] = UDim2.new(0, 646, 0, 27);
-G2L["1e"]["Text"] = "Synapse X - "..synversion;
+G2L["1e"]["Text"] = "SigmaSploit - "..synversion;
 G2L["1e"]["Name"] = [[TitleSynapse]];
 G2L["1e"]["BackgroundTransparency"] = 1;
 
@@ -756,7 +756,7 @@ G2L["4f"]["TextSize"] = 15;
 G2L["4f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["4f"]["Size"] = UDim2.new(0, 322, 0, 30);
 G2L["4f"]["Active"] = true;
-G2L["4f"]["Text"] = [[Synapse X - Save File]];
+G2L["4f"]["Text"] = [[SigmaSploit - Save File]];
 G2L["4f"]["Name"] = [[Title]];
 G2L["4f"]["BackgroundTransparency"] = 1;
 
@@ -998,7 +998,7 @@ G2L["63"]["TextSize"] = 15;
 G2L["63"].Active = true;
 G2L["63"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["63"]["Size"] = UDim2.new(0, 410, 0, 30);
-G2L["63"]["Text"] = [[Synapse X - Script Hub]];
+G2L["63"]["Text"] = [[SigmaSploit - Script Hub]];
 G2L["63"]["Name"] = [[Title]];
 G2L["63"]["BackgroundTransparency"] = 1;
 
@@ -1484,7 +1484,7 @@ G2L["90"]["TextSize"] = 15;
 G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["90"]["Size"] = UDim2.new(0, 322, 0, 30);
 G2L["90"]["Active"] = true;
-G2L["90"]["Text"] = [[Synapse X - Open FIle]];
+G2L["90"]["Text"] = [[SigmaSploit - Open FIle]];
 G2L["90"]["Name"] = [[Title]];
 G2L["90"]["BackgroundTransparency"] = 1;
 
@@ -3060,22 +3060,22 @@ local function C_49()
 	end)
 	buttons.Attach.MouseButton1Up:Connect(function()
 		if not injected then
-			title.Text = "Synapse X - "..synversion.." (checking...)"
+			title.Text = "SigmaSploit - "..synversion.." (checking...)"
 			task.wait(0.8)
-			title.Text = "Synapse X - "..synversion.." (injecting...)"
+			title.Text = "SigmaSploit - "..synversion.." (injecting...)"
 			task.wait(2.3)
-			title.Text = "Synapse X - "..synversion.." (checking whitelist...)"
+			title.Text = "SigmaSploit - "..synversion.." (checking whitelist...)"
 			task.wait(1.6)
-			title.Text = "Synapse X - "..synversion.." (scanning...)"
+			title.Text = "SigmaSploit - "..synversion.." (scanning...)"
 			task.wait(1.3)
-			title.Text = "Synapse X - "..synversion.." (ready!)"
+			title.Text = "SigmaSploit - "..synversion.." (ready!)"
 			injected = true
 			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+			title.Text = "SigmaSploit - "..synversion
 		else
-			title.Text = "Synapse X - "..synversion.." (already injected!)"
+			title.Text = "SigmaSploit - "..synversion.." (already injected!)"
 			task.wait(1)
-			title.Text = "Synapse X - "..synversion
+			title.Text = "SigmaSploit - "..synversion
 		end
 	end)
 
@@ -3317,9 +3317,9 @@ local function C_92()
 			script.Parent.scriptname.Text = ''
 			module:AddTab(script.Parent.scriptname.Text, readfile(a))
 		else
-			script.Parent.Title.Text = "Synapse X - Open File (File not found!)"
+			script.Parent.Title.Text = "SigmaSploit - Open File (File not found!)"
 			task.wait(1)
-			script.Parent.Title.Text = "Synapse X - Open File"
+			script.Parent.Title.Text = "SigmaSploit - Open File"
 		end
 	end)
 
